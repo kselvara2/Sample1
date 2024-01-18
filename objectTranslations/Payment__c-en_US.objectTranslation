@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payments</value>
+    </caseValues>
+    <fields>
+        <help><!-- The related customer who is making --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The related order for which the payment is being created --></help>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

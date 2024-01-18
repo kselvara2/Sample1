@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OrderCustom</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OrderCustom</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountName --></label>
+        <name>AccountName__c</name>
+        <relationshipLabel><!-- OrderCustom --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- OrderCustom --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delivered Date --></label>
+        <name>Delivered_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>Expected_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Date --></label>
+        <name>Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC</masterLabel>
+            <translation><!-- CC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COD</masterLabel>
+            <translation><!-- COD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit Card</masterLabel>
+            <translation><!-- Debit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMI</masterLabel>
+            <translation><!-- EMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net</masterLabel>
+            <translation><!-- Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallet</masterLabel>
+            <translation><!-- Wallet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Status --></label>
+        <name>Payment_Status__c</name>
+        <picklistValues>
+            <masterLabel>COD</masterLabel>
+            <translation><!-- COD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMI</masterLabel>
+            <translation><!-- EMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAID</masterLabel>
+            <translation><!-- PAID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Paid</masterLabel>
+            <translation><!-- Partially Paid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>Shipping_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed, Return</masterLabel>
+            <translation><!-- Closed, Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open, In</masterLabel>
+            <translation><!-- Open, In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process, Dispatched</masterLabel>
+            <translation><!-- Process, Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested,</masterLabel>
+            <translation><!-- Requested, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned,</masterLabel>
+            <translation><!-- Returned, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped, Out</masterLabel>
+            <translation><!-- Shipped, Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>for Delivery, Delivered</masterLabel>
+            <translation><!-- for Delivery, Delivered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Items --></label>
+        <name>Total_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

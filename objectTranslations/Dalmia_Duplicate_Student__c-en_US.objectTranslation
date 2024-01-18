@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Duplicate Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Duplicate Students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Country --></label>
+        <name>Duplicate_Country__c</name>
+        <picklistValues>
+            <masterLabel>INDIA</masterLabel>
+            <translation><!-- INDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Duplicate State --></label>
+        <name>Duplicate_State__c</name>
+        <picklistValues>
+            <masterLabel>KARNATAKA</masterLabel>
+            <translation><!-- KARNATAKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LONDON</masterLabel>
+            <translation><!-- LONDON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEWJERSEY</masterLabel>
+            <translation><!-- NEWJERSEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUSSEX</masterLabel>
+            <translation><!-- SUSSEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMILNADU</masterLabel>
+            <translation><!-- TAMILNADU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEXAS</masterLabel>
+            <translation><!-- TEXAS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Student Name --></label>
+        <name>Student_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Duplicate Student Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Duplicate Student Layout India</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create a Class Record --></label>
+        <name>Create_a_Class_Record</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Duplicate Student --></label>
+        <name>Duplicate_Update_Record</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- It will show only Dalmia India --></description>
+        <label><!-- Duplicate Dalmia India --></label>
+        <name>Duplicate_Dalmia_India</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Duplicate Dalmia UK --></label>
+        <name>Duplicate_Dalmia_UK</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Duplicate Dalmia USA --></label>
+        <name>Duplicate_Dalmia_USA</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

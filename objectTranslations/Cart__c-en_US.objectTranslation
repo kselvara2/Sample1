@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cart</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Carts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CartId --></label>
+        <name>Cart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Carts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordered</masterLabel>
+            <translation><!-- Ordered --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

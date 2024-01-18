@@ -1,0 +1,8 @@
+<apex:page >
+<h1>Congratulations</h1>
+    <script>
+    ul.addEventListener("click", function(e) {
+    sforce.one.navigateToSObject(e.target.getAttribute("data-id"));
+        </script>
+});
+</apex:page>

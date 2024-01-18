@@ -1,0 +1,27 @@
+<apex:page >
+   <apex:pageBlock title="User Status">
+		<apex:pageblocksection columns="1">
+            {! $User.FirstName} {! $User.LastName}
+            ({!$User.Username})
+       </apex:pageblocksection>
+       <apex:pageBlockSection columns="2">
+         {! $user.firstname & '---- ' & $user.lastname}
+       </apex:pageBlockSection>
+       <apex:pageBlockSection columns="3">
+           <p>Today's date is {! Today()}</p>
+           <p>Next Week it will be {! Today() +7 }</p>               
+       </apex:pageBlockSection>
+       		<p>The year of today is {!YEAR(TODAY())}</p>
+       		<P>The date of tommorow is {! DAY(TODAY())+1}</P>
+       		<P>The maximum value in the list is {! max(1,2,3)}</P>
+       		<P>The SQRT of provided value {! sqrt(4)}</P>
+       		<P>Is it True {! Contains('salesforce.com','force.com')}</P>
+       <apex:pageBlockSection >
+             <p> {! IF(Contains('salesforce.com','force.com'),'yes','no')}</p>
+             <p> {! IF(DAY(TODAY()) < 15,'Before 15','On or after 15')}</p>
+       </apex:pageBlockSection>
+       <apex:pageBlockSection >
+           <p> {! if($user.isactive,$user.username,'inactive')}</p>
+       </apex:pageBlockSection>
+   </apex:pageBlock>
+</apex:page>

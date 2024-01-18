@@ -1,0 +1,15 @@
+<apex:page controller="CustomControllerAccountApex" >
+    <apex:form >
+    <apex:pageBlock id="Account_List">
+    	<apex:pageBlockTable value="{! Account}" var="Ac">
+            <apex:column value="{! Ac.Name}">
+             	<apex:facet name="header">
+                    <apex:commandLink action="{! sortByName }" reRender="Account_List">Name
+        			</apex:commandLink>
+                </apex:facet> 
+             </apex:column>    
+            <apex:column value="{! Ac.AccountNumber}"/>
+    	</apex:pageBlockTable>
+    </apex:pageBlock> 
+        </apex:form>
+</apex:page>

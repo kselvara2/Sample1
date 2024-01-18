@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Sample --></label>
+        <name>Sample</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Donar History</value>
+        </caseValues>
+        <name>account_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Donar Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Donar Names</value>
+        </caseValues>
+        <name>account_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Prospect Rating</value>
+        </caseValues>
+        <name>rating_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Subscriptions --></label>
+        <name>Active_Subscriptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Syndications --></label>
+        <name>Active_Syndications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- All Subscriptions --></label>
+        <name>All_Subscriptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingAddressValue --></label>
+        <name>BillingAddressValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date First Opportunity Created --></label>
+        <name>Date_First_Opportunity_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Name --></label>
+        <name>HBC_Grp_Broker_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker ID --></label>
+        <name>HBC_Grp_Broker_Nm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Does this customer have a current support plan? Check this box when you sell a support plan to this customer --></help>
+        <label><!-- Has Support Plan --></label>
+        <name>Has_Support_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion --></label>
+        <name>Lead_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Billing Address --></label>
+        <name>Match_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Contacts --></label>
+        <name>Number_Of_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberofClosedOpportunities --></label>
+        <name>NumberofClosedOpportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Value --></label>
+        <name>Potential_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recertification Month --></label>
+        <name>Recertification_Month__c</name>
+        <picklistValues>
+            <masterLabel>Apr</masterLabel>
+            <translation><!-- Apr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aug</masterLabel>
+            <translation><!-- Aug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dec</masterLabel>
+            <translation><!-- Dec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feb</masterLabel>
+            <translation><!-- Feb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jan</masterLabel>
+            <translation><!-- Jan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jul</masterLabel>
+            <translation><!-- Jul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jun</masterLabel>
+            <translation><!-- Jun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mar</masterLabel>
+            <translation><!-- Mar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nov</masterLabel>
+            <translation><!-- Nov --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oct</masterLabel>
+            <translation><!-- Oct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sep</masterLabel>
+            <translation><!-- Sep --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Eecertification year --></label>
+        <name>Recertification__c</name>
+    </fields>
+    <fields>
+        <help><!-- In which region is the customer based? --></help>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample --></label>
+        <name>Sample__c</name>
+        <picklistValues>
+            <masterLabel>two</masterLabel>
+            <translation><!-- two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sum of Opportunities --></label>
+        <name>Sum_of_Opportunities__c</name>
+    </fields>
+    <fields>
+        <help><!-- When is the current support plan due for renewal? --></help>
+        <label><!-- Support Plan Expiration Date --></label>
+        <name>Support_Plan_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- In which zone is this customer based? Depends on region. --></help>
+        <label><!-- Zone --></label>
+        <name>Zone__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Canada</masterLabel>
+            <translation><!-- Central Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Asia</masterLabel>
+            <translation><!-- East Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast</masterLabel>
+            <translation><!-- East Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East</masterLabel>
+            <translation><!-- Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest US</masterLabel>
+            <translation><!-- Midwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountains and the West</masterLabel>
+            <translation><!-- Mountains and the West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast US</masterLabel>
+            <translation><!-- Northeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Canada</masterLabel>
+            <translation><!-- Northern Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast Asia</masterLabel>
+            <translation><!-- Southeast Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast US</masterLabel>
+            <translation><!-- Southeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest US</masterLabel>
+            <translation><!-- Southwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Prairies</masterLabel>
+            <translation><!-- The Prairies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK + Ireland</masterLabel>
+            <translation><!-- UK + Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West US</masterLabel>
+            <translation><!-- West US --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Energy Audit --></label>
+        <name>New_Energy_Audit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For customers and prospects --></description>
+        <label><!-- Customer Account --></label>
+        <name>Customer_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For consulting partners --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Account Number is Numeric when Not Blank --></errorMessage>
+        <name>Account_Number_Is_Numeric</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SLA Expiration Date should be within this year --></errorMessage>
+        <name>Date_Current_Year</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan. --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Location --></label>
+        <name>Map_Location</name>
+    </webLinks>
+</CustomObjectTranslation>

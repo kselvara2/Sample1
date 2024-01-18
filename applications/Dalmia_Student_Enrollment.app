@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Student_Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#2E5853</headerColor>
+        <logo>StudentEnrollment</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>This App is mainly used for Enrollment of Students</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Student Enrollment</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>DALMIA_Student__c</tabs>
+    <tabs>Dalmia_Class__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Dalmia_Duplicate_Student__c</tabs>
+    <tabs>Course__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>Favorite_Dup__c</tabs>
+    <tabs>OrderLineItem__c</tabs>
+    <tabs>Account_Request__c</tabs>
+    <tabs>Coupons__c</tabs>
+    <tabs>Address_Book__c</tabs>
+    <tabs>Product_Offers__c</tabs>
+    <tabs>Category__c</tabs>
+    <tabs>ProductCatefory__c</tabs>
+    <tabs>Cart__c</tabs>
+    <tabs>CartItem__c</tabs>
+    <tabs>OrderCustom__c</tabs>
+    <tabs>Service_Request__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Student_Enrollment_UtilityBar</utilityBar>
+</CustomApplication>

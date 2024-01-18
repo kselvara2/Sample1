@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Dalmia_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Dalmia_Country__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter Correct Date Of Birth --></help>
+        <label><!-- Date Of Birth --></label>
+        <name>Dalmia_Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Dalmia_Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>Dalmia_State__c</name>
+        <picklistValues>
+            <masterLabel>KARNATAKA</masterLabel>
+            <translation><!-- KARNATAKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LONDON</masterLabel>
+            <translation><!-- LONDON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANCHESTER</masterLabel>
+            <translation><!-- MANCHESTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW JERSEY</masterLabel>
+            <translation><!-- NEW JERSEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEWYORK</masterLabel>
+            <translation><!-- NEWYORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMILNADU</masterLabel>
+            <translation><!-- TAMILNADU --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dalmia Student Email --></label>
+        <name>Dalmia_Student_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Name --></label>
+        <name>Dalmia_Student_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>Dalmis_SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leave Status --></label>
+        <name>Leave_Status__c</name>
+        <picklistValues>
+            <masterLabel>Applied</masterLabel>
+            <translation><!-- Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legacy Id --></label>
+        <name>Legacy_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout India</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout UK</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout USA</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create a Class Record --></label>
+        <name>Create_a_Class_Record</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Record --></label>
+        <name>Update_Record</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- It will show only Dalmia India --></description>
+        <label><!-- Dalmia India --></label>
+        <name>Dalmia_India</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Contains records for UK --></description>
+        <label><!-- Dalmia UK --></label>
+        <name>Dalmia_UK</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Contains records for USA --></description>
+        <label><!-- Dalmia USA --></label>
+        <name>Dalmia_USA</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter the student age which should be greater than 15 --></errorMessage>
+        <name>Dalmia_StudentAgeValidation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Dalmia_Alert_Link --></label>
+        <name>Dalmia_Alert_Link</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Dalmia_Detail_Button --></label>
+        <name>Dalmia_Detail_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Dalmia_List_Button --></label>
+        <name>Dalmia_List_Button</name>
+    </webLinks>
+</CustomObjectTranslation>

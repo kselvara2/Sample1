@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>If a high-value opportunity is closed and won, create a draft contract</description>
+    <masterLabel>Closed Won Opportunities</masterLabel>
+</FlowDefinition>

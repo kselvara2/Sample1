@@ -1,0 +1,8 @@
+<apex:page controller="CustomControllerApex">
+       <apex:pageBlock >
+           <apex:pageBlockTable value="{! contacts}" var="ct">
+               <apex:column value="{! ct.firstname}" />
+               <apex:column value="{! ct.lastname}" />
+           </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Opp_SalesProcess</fullName>
+        <description>Opportunity Sales Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal%2FPrice Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualification</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>sample</fullName>
+        <description>Sample</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Id%2E Decision Makers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negotiation%2FReview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perception Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal%2FPrice Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Proposition</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>New_Oppty_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>New_Oppty_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Probability</fields>
+        <fields>CloseDate</fields>
+        <fields>StageName</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>New Oppty Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Amount_After_Discount__c</fullName>
+        <description>Calculates the opportunity amount after any discount has been applied.</description>
+        <externalId>false</externalId>
+        <formula>Amount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Opportunity amount after discount has been applied.</inlineHelpText>
+        <label>Amount After Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Not Approved</fullName>
+                    <default>false</default>
+                    <label>Not Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Close_Reason__c</fullName>
+        <description>Created for the VP of Global Sales to track wins and losses.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When you close the opportunity, select one or more values that best describe your reason for closing.</inlineHelpText>
+        <label>Close Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>StageName</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lost: Competitor</fullName>
+                    <default>false</default>
+                    <label>Lost: Competitor</label>
+                </value>
+                <value>
+                    <fullName>Lost: Price</fullName>
+                    <default>false</default>
+                    <label>Lost: Price</label>
+                </value>
+                <value>
+                    <fullName>Lost: Product Features</fullName>
+                    <default>false</default>
+                    <label>Lost: Product Features</label>
+                </value>
+                <value>
+                    <fullName>Lost: Project Abandoned</fullName>
+                    <default>false</default>
+                    <label>Lost: Project Abandoned</label>
+                </value>
+                <value>
+                    <fullName>Lost: Company Budget Constraints</fullName>
+                    <default>false</default>
+                    <label>Lost: Company Budget Constraints</label>
+                </value>
+                <value>
+                    <fullName>Lost: Other Reason</fullName>
+                    <default>false</default>
+                    <label>Lost: Other Reason</label>
+                </value>
+                <value>
+                    <fullName>Won: Competitor</fullName>
+                    <default>false</default>
+                    <label>Won: Competitor</label>
+                </value>
+                <value>
+                    <fullName>Won: Price</fullName>
+                    <default>false</default>
+                    <label>Won: Price</label>
+                </value>
+                <value>
+                    <fullName>Won: Product Features</fullName>
+                    <default>false</default>
+                    <label>Won: Product Features</label>
+                </value>
+                <value>
+                    <fullName>Won: Other Reason</fullName>
+                    <default>false</default>
+                    <label>Won: Other Reason</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Product Features</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Project Abandoned</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Company Budget Constraints</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost: Other Reason</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Won: Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Won: Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Won: Product Features</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Won: Other Reason</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Commission__c</fullName>
+        <description>Calculates sales rep commission of 10 percent when opportunity is won.</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(StageName, &quot;Closed Won&quot;) ,  Amount * 0.1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sales rep commission when opportunity is won.</inlineHelpText>
+        <label>Commission</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrentGenerators__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Generator(s)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Opportunity Details Captured&quot;, &quot;Missing: &quot;&amp;IF( ISPICKVAL( Type ,&quot;&quot;),&quot;Type, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN( TEXT(MONTH(CloseDate))) = 0, &quot;Close Date, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( Amount &lt;= 0, &quot;Amount, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( LeadSource,&quot;&quot;), &quot;Lead Source, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(NextStep)=0, &quot;Next Steps&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(Type,&quot;&quot;), 0,20) + IF( LEN( TEXT(MONTH(CloseDate))) = 0, 0,20) + IF( Amount &lt;= 0, 0,20) + IF( ISPICKVAL( LeadSource,&quot;&quot;), 0,20) + IF( LEN(NextStep)=0, 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_Close__c</fullName>
+        <externalId>false</externalId>
+        <formula>CloseDate  -  TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Close</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeliveryInstallationStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery/Installation Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Yet to begin</fullName>
+                    <default>false</default>
+                    <label>Yet to begin</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Discount_Percentage_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Percentage_1</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discount_Percentage__c</fullName>
+        <description>Displays the percentage to be subtracted from the total amount of the opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If the customer is getting a discount on this opportunity, enter the amount here. For example, if the discount is 10%, enter the whole number 10.</inlineHelpText>
+        <label>Discount Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Discounted_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Amount * (1 - Discount_Percentage__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Discounted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsExcludedFromTerritory2Filter</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MainCompetitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Competitor(s)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minimum_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Minimum List Price</label>
+        <summarizedField>OpportunityLineItem.ListPrice</summarizedField>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>OrderNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Number</label>
+        <length>8</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Region_Zone__c</fullName>
+        <description>Displays the Region and Zone values from the account record.</description>
+        <externalId>false</externalId>
+        <formula>Text(Account.Region__c )  &amp; &quot;/&quot; &amp; Text( Account.Zone__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Account region and zone.</inlineHelpText>
+        <label>Region/Zone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SameOpportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SameOpportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Territory2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Total_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Total List Price</label>
+        <summarizedField>OpportunityLineItem.TotalPrice</summarizedField>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TrackingNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracking Number</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Unique_Accounts__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unique Accounts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unique_Users__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unique Users</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Close_reason_required_when_lost</fullName>
+        <active>true</active>
+        <description>A close reason is required when opportunity is closed lost.</description>
+        <errorConditionFormula>ISPICKVAL( StageName , &quot;Closed Lost&quot;)   &amp;&amp;  ISBLANK( Close_Reason__c)</errorConditionFormula>
+        <errorMessage>You must enter a close reason when opportunity is closed lost.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>DeliveryStatus</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Delivery Status</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
+    </webLinks>
+</CustomObject>

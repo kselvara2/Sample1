@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Based_on_Criteria</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Based on Criteria</label>
+        <sharedTo>
+            <group>Dalmia_Admins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Dalmia_Gender__c</field>
+            <operation>equals</operation>
+            <value>Male</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Share_With_Enrollment</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share With Enrollment</label>
+        <sharedTo>
+            <role>Enrollment_Team</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Management_Team</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
